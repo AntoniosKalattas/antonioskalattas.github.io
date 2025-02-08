@@ -1,3 +1,5 @@
+'use strict';
+
 //Opening or closing side bar
 
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
