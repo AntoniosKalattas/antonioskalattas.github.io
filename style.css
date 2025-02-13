@@ -438,6 +438,67 @@ article { display: none; }
     font-weight: var(--fw300);
     line-height: 1.6;
 }
+/* Licenses & Certifications Styling */
+.LicensesCertifications {
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: var(--shadow2);
+    margin-top: 20px;
+}
+
+.LicensesCertifications h3 {
+    text-align: center;
+    font-size: var(--fs2);
+    margin-bottom: 15px;
+    border-bottom: 2px solid var(--orange-yellow-crayola);
+    padding-bottom: 8px;
+    display: inline-block;
+}
+
+/* Certification List */
+#certification-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.certification-item {
+
+    border: 1px solid var(--jet);
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+/* Text Styling */
+.certification-item strong {
+    color: var(--orange-yellow-crayola);
+    font-size: var(--fs7);
+}
+
+.certification-item em {
+    color: var(--light-gray);
+    font-size: var(--fs7);
+}
+
+/* View Link */
+.certification-item a {
+    display: inline-block;
+    margin-left: 10px;
+    color: var(--orange-yellow-crayola);
+    font-size: var(--fs7);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.certification-item a:hover {
+    color: var(--vegas-gold);
+    text-decoration: underline;
+}
+
+
 
 /*TESTIMONIALS*/
 
@@ -548,6 +609,8 @@ article { display: none; }
     transition: var(--transition1);
     z-index: 2;
 }
+
+
 
 .modal-close-btn {
     position: absolute;
@@ -1462,3 +1525,4 @@ textarea.form-input {
 
     .timeline-text { max-width: 700px; }
 }
+
