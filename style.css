@@ -34,7 +34,7 @@
     --smoky-black: hsl(0, 0%, 7%);
     --white1: hsl(0, 0%, 100%);
     --white2: hsl(0, 0%, 98%);
-    --vegas-gold: hsl(45, 54%, 58%);
+    --vegas-gold: hsl(188 100% 70%); /* was gold; now a lighter teal */
     --light-gray: hsl(0, 0%, 84%);
     --light-gray70: hsla(0, 0%, 84%, .7);
     --bittersweet-shimmer: hsl(0, 43%, 51%);
